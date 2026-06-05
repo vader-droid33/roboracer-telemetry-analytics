@@ -1,0 +1,8 @@
+# Ignore heavy ROS 2 data storage extensions
+*.mcap
+*.db3
+metadata.yaml
+
+# Ignore python caches
+__pycache__/
+*.pyc
