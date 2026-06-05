@@ -28,3 +28,22 @@ Ensure your Ubuntu layer possesses the necessary MCAP/SQLite unpacking dependenc
 ```bash
 sudo apt-get install ros-jazzy-rosbag2-storage-mcap
 pip install -r requirements.txt --break-system-packages
+
+
+---
+
+## 📊 Sample Analytical Output
+
+Executing the engine on a native F1TENTH experimental MCAP log (`layout_00_fast_run_01_mcap`) yields the following runtime report:
+
+```text
+--- Processing F1TENTH Dataset: /home/purujitv/f1tenth_ws/raw/layout_00_fast_run_01_mcap ---
+
+[Parsing high-frequency data streams...]
+
+================ RACE ENGINEER REPORT ================
+Processed Message Count : 22656
+Top Speed Clocked       : 3.00 m/s (10.8 km/h)
+Lateral Slip Anomalies  : 0 events detected
+Status Evaluation       : Clean run. Traction control optimal.
+=======================================================
